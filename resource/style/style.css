@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;                /* letra requerida */
+    font-weight: sans-serif;
+}
+
+#contenedor{                                /* contenedor principal, contiene un fondo para la barra lateral */
+    width: 100%;
+    height: 1000px;
+    background: rgb(32, 32, 32);
+}
+
+#menu{
+    width: 20%;                             /* % requerido por la tarea */
+    background: rgb(32, 32, 32);    
+    position: fixed;                        /* mantener el menu */
+    float: left;                            /* funcion float para colocar el menu */
+    text-indent: 3em;                       /* margen izquierdo de los textos*/
+    margin-top: 40px;                       /* margen superior de los textos */
+   
+}
+
+#primer_cuadro{
+    height: 25%;                            /* % requerido por la tarea */
+    width: 77%;                             
+    background: #24c7f8;
+    float: right;
+    margin-right: 3%;                       /* margen del texto */
+}
+
+#segundo_cuadro{
+    height: 25%;                               
+    width: 77%;
+    background: #c2b505;
+    float: right;
+    margin-right: 3%;
+}
+
+#tercer_cuadro{
+    height: 25%;
+    width: 77%;
+    background: #ff5a19;
+    float: right;
+    margin-right: 3%;
+}
+
+#cuarto_cuadro{
+    height: 25%;
+    width: 77%;
+    background: #ff0000;
+    float: right;
+    margin-right: 3%;
+}
+
+a:link, a:visited{                          /* funcion para el link y para cuando esta visitado */
+    text-decoration: none;                  /* quitamos la raya inferior a los links */
+    font-size: 50px;                        /* tamaño de la letra */
+    color: white;                         /* color de la letra */
+    overflow: hidden;                       /* que no cambie de color al ser visitado */
+    
+}
+a:hover{                                    /* funcion para el link cuando el mouse pasa por encima */ 
+    color: rgb(145, 145, 145);            /* que cambie de color */
+    overflow: hidden;                       /* que funcione correctamente */  
+}
+
+p{                                          /* funcion para los titulos */
+    text-indent: 4em;
+    margin-top: 40px;
+    font-size: 2em;
+    color: white;
+}
+
+h3{                                         /* funcion para los textos */
+    text-indent: 7em;
+    color: white;
+}
