@@ -1,0 +1,27 @@
+body{
+
+    background-image: url(../img/fondo_perros.jpg);
+    background-size: 80vw 80vh;
+    background-attachment: fixed;
+    margin: auto;
+    
+}
+img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 40px;
+    padding-left: 20px;
+    
+}
+
+.limpiar{
+    clear:left;
+   
+}
+
+p{
+    font-size: 30px;
+    text-indent: 1em;
+   
+}
